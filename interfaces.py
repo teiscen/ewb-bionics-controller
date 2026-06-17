@@ -1,5 +1,6 @@
-from control_hub import ControlHub
-
+from abc import ABC, abstractmethod
+import socket
+import struct
 # ----- REQUIRED
 # NOTE: If you'd like your 'interface' to work with control_hub,
 #       you must inherit and implement the abstract methods in BionicsInterface
@@ -22,8 +23,9 @@ class BionicsInterface(ABC):
     @abstractmethod
     def send(self, message): pass
 
+
 # ----- Implementations on the interface
-class MockInterface(BisonicsInterface):
+class MockInterface(BionicsInterface):
     def connect(self):
         print('[mock] connected')
 
@@ -34,20 +36,21 @@ class MockInterface(BisonicsInterface):
         print(f'[mock] finger={message["finger"]} curl={message["curl"]}')
 
 # TODO: Test the implementation
-class UDPInterface(BisonicsInterface): def __init__(self, host: str, port: int):
+class UDPInterface(BionicsInterface):
+    def __init__(self, host: str, port: int):
         self.host = host
         self.port = port
         self.sock = None
 
     def connect(self):
-        self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        print(f'[UDP] read to send to {self.host}:{self.port}')
-
-    def disconnect(self):
-        if self.sock:
-            self.sock.close()
+        self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
+        print(f'[UDP] read to send to {self.host}:{self.port}') 
+        
+    def disconnect(self): 
+        if self.sock: 
+            self.sock.close() 
             self.sock = None
-            print('[UDP] disconnected')
+        print('[UDP] disconnected')
 
     def send(self, message):
         if self.sock:

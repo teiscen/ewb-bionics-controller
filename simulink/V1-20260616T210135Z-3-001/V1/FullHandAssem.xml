@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/02/26||21:04:53" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="FullHandAssem" uid="FullHandAssem" version="261">
+<AssemblyFile name="FullHandAssem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Hand Cassing Assembly-2" uid="Hand Cassing Assembly-2" grounded="true" entityUid="Hand Cassing Assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Hand_Base-1" uid="Hand_Base-1" grounded="true" entityUid="Hand_Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.010635660859665377 0.022581359647888724 0.13721696670591887</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Fingers - Base Model-1" uid="Fingers - Base Model-1" entityUid="Fingers - Base Model">
+<Transform>
+<Rotation>0 0.99891258920995829 0.046622302794449219 4.5561955076886089e-16 0.046622302794449233 -0.99891258920995829 -1 0 -4.551403355440805e-16</Rotation>
+<Translation>-0.011968476880336287 0.22891874665273998 0.17118651151031253</Translation>
+</Transform>
+<Instance name="FingerSegmentBUpdated2-1" uid="FingerSegmentBUpdated2-1" entityUid="FingerSegmentBUpdated2*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.9999580978338346 0.0091543747213870333 0 -0.0091543747213870541 0.99995809783383449</Rotation>
+<Translation>-0.024645026929775993 0.015812352452340923 0.025272099386179109</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentCUpdated2-1" uid="FingerSegmentCUpdated2-1" entityUid="FingerSegmentCUpdated2*:*Default">
+<Transform>
+<Rotation>1 -1.3421146133437449e-15 1.1197987255185901e-15 1.3443939516171485e-15 0.99999804406975268 -0.0019778414165757055 -1.1171258158356881e-15 0.0019778414165756916 0.99999804406975268</Rotation>
+<Translation>-0.02464502693133877 0.015464486212028734 -0.012726308331425795</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 1-1" uid="Connecting pole - 1-1" entityUid="Connecting pole - 1*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -1.6566523633125155e-15 0 1.05282815267442e-15 0.64882290631204409 0.76093944321791629 -1.2794507995597002e-15 -0.7609394432179164 0.64882290631204387</Rotation>
+<Translation>-0.034565478437726865 0.015812352451707853 0.025272099386150715</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentAUpdated2-1" uid="FingerSegmentAUpdated2-1" grounded="true" entityUid="FingerSegmentAUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024645026930381647 0.016224299314113982 0.070270213788794167</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 2-1" uid="Connecting pole - 2-1" entityUid="Connecting pole - 2*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -4.0380343325097936e-16 1.7351594149298666e-15 1.3848617196126319e-15 0.78900595555327224 -0.61438554841521797 -1.1209114297242235e-15 0.61438554841521809 0.78900595555327213</Rotation>
+<Translation>-0.033645026931246824 0.015464486212246383 -0.012726308331549946</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HandCase-1" uid="HandCase-1" entityUid="HandCase*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0056356608596653708 0.022581359647888724 0.13721696670591882</Translation>
+</Transform>
+</Instance>
+<Instance name="Fingers - Base Model-3" uid="Fingers - Base Model-3" entityUid="Fingers - Base Model">
+<Transform>
+<Rotation>0 0.98575240892970284 0.16820281891005257 0 0.16820281891005257 -0.98575240892970284 -1 0 0</Rotation>
+<Translation>-0.020298451036437369 0.24862141928672124 0.11507193977553726</Translation>
+</Transform>
+<Instance name="FingerSegmentBUpdated2-1" uid="FingerSegmentBUpdated2-1" entityUid="FingerSegmentBUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99986345813133903 -0.016524681347620807 0 0.016524681347620807 0.99986345813133903</Rotation>
+<Translation>-0.024645026930381495 0.015812352451651614 0.025272099386271618</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentAUpdated2-1" uid="FingerSegmentAUpdated2-1" grounded="true" entityUid="FingerSegmentAUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024645026930381661 0.016224299314113982 0.070270213788794111</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentCUpdated2-1" uid="FingerSegmentCUpdated2-1" entityUid="FingerSegmentCUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 1.1522779083748812e-16 0 0.98797224738248368 -0.15463129826139474 -1.0742856660712149e-16 0.15463129826139474 0.98797224738248368</Rotation>
+<Translation>-0.024645026930381495 0.016440290342861215 -0.012722712022719296</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 1-1" uid="Connecting pole - 1-1" entityUid="Connecting pole - 1*:*Default">
+<Transform>
+<Rotation>1 -2.0611933917753008e-15 3.6725623796716581e-16 1.2705118964880785e-15 0.73685301745614251 0.67605297918563889 -1.6640898003131409e-15 -0.67605297918563889 0.73685301745614251</Rotation>
+<Translation>-0.034565478436876781 0.01581235245165323 0.025272099386268204</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 2-1" uid="Connecting pole - 2-1" entityUid="Connecting pole - 2*:*Default">
+<Transform>
+<Rotation>1 0 2.1543791254615435e-15 1.5807110690706591e-15 0.70811311217025907 -0.70609901598327562 -1.46620727281102e-15 0.70609901598327562 0.70811311217025907</Rotation>
+<Translation>-0.033645026930373648 0.016440290342867127 -0.012722712022682769</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Fingers - Base Model-2" uid="Fingers - Base Model-2" entityUid="Fingers - Base Model">
+<Transform>
+<Rotation>0 0.99424969573618827 0.10708661227481898 0 0.10708661227481904 -0.99424969573618815 -0.99999999999999989 0 0</Rotation>
+<Translation>-0.016141664654725218 0.24421009307663291 0.14600827738636277</Translation>
+</Transform>
+<Instance name="FingerSegmentAUpdated2-1" uid="FingerSegmentAUpdated2-1" grounded="true" entityUid="FingerSegmentAUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024645026930381647 0.016224299314113986 0.070270213788794139</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentCUpdated2-1" uid="FingerSegmentCUpdated2-1" entityUid="FingerSegmentCUpdated2*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -1.4598889423965371e-15 1.512607859292232e-15 1.5048541614048092e-15 0.99949428822950559 -0.03179886470605861 -1.4697219215131048e-15 0.031798864706058569 0.99949428822950548</Rotation>
+<Translation>-0.024645026930432495 0.01498942956319153 -0.012718989015014032</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentBUpdated2-1" uid="FingerSegmentBUpdated2-1" entityUid="FingerSegmentBUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99976548424619149 0.021655865486703917 0 -0.021655865486703917 0.99976548424619149</Rotation>
+<Translation>-0.024645026932358371 0.015812352451861158 0.025272099386614427</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 1-1" uid="Connecting pole - 1-1" entityUid="Connecting pole - 1*:*Default">
+<Transform>
+<Rotation>0.99999999999999978 -2.0125371620541684e-15 3.1856098033877495e-16 1.1643806220350334e-15 0.69375489719712014 0.7202111791794219 -1.6747568195759786e-15 -0.7202111791794219 0.69375489719711991</Rotation>
+<Translation>-0.034565478437331182 0.015812352450764726 0.025272099386035751</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 2-1" uid="Connecting pole - 2-1" entityUid="Connecting pole - 2*:*Default">
+<Transform>
+<Rotation>1 -1.2587947376925948e-16 2.1052520640730321e-15 1.4861936178787894e-15 0.75031353508388754 -0.66108214245275132 -1.4963824462270807e-15 0.66108214245275132 0.75031353508388754</Rotation>
+<Translation>-0.033645026930618077 0.014989429563528701 -0.01271898901495408</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Fingers - Base Model-4" uid="Fingers - Base Model-4" entityUid="Fingers - Base Model">
+<Transform>
+<Rotation>0 0.99721349419497507 0.074600583077136337 -2.8229766411037276e-16 0.074600583077136337 -0.99721349419497507 -1 0 2.8130985007970035e-16</Rotation>
+<Translation>-0.013906949991157352 0.24194542288918916 0.07497059556706008</Translation>
+</Transform>
+<Instance name="FingerSegmentBUpdated2-1" uid="FingerSegmentBUpdated2-1" entityUid="FingerSegmentBUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99430854246758837 0.10653883036705417 0 -0.10653883036705417 0.99430854246758837</Rotation>
+<Translation>-0.02464502693040746 0.015812352451644564 0.025272099386265207</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentAUpdated2-1" uid="FingerSegmentAUpdated2-1" grounded="true" entityUid="FingerSegmentAUpdated2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.024645026930381647 0.016224299314113989 0.070270213788794111</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 1-1" uid="Connecting pole - 1-1" entityUid="Connecting pole - 1*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -2.2196346657143432e-15 5.0596374084044468e-16 1.1112662385726928e-15 0.66989493026641278 0.74245591276745726 -1.9869234266308758e-15 -0.74245591276745737 0.66989493026641267</Rotation>
+<Translation>-0.034565478436917124 0.01581235245163367 0.025272099386277475</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting pole - 2-1" uid="Connecting pole - 2-1" entityUid="Connecting pole - 2*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 2.3188247301643477e-15 1.4387259765710326e-15 0.77147657789255597 -0.63625772275328119 -1.8191404079680672e-15 0.6362577227532813 0.77147657789255586</Rotation>
+<Translation>-0.033645026930421609 0.011763876897682856 -0.012511625227491496</Translation>
+</Transform>
+</Instance>
+<Instance name="FingerSegmentCUpdated2-1" uid="FingerSegmentCUpdated2-1" entityUid="FingerSegmentCUpdated2*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99819162355657776 0.060112250510884556 0 -0.060112250510884563 0.99819162355657765</Rotation>
+<Translation>-0.024645026930333852 0.011763876897701244 -0.012511625227497991</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.018150000000000003 0.13690000000000002 0.055114571734775242</Position>
+<Axis>0 4.5561954477489645e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fingers - Base Model-1</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>-0.0060000000000000053 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Angle name="LimitAngle1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fingers - Base Model-1</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0099854957821283175 0.00053839946610084732</Position>
+<Axis>0 0.99854957821283119 0.053839946610088674</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.025150000000000002 0.11514999999999999 0.067364571734775253</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Angle>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.018150000000000003 0.15349999999999997 0.036936337610825515</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fingers - Base Model-2</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>-0.0060000000000000053 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Angle name="LimitAngle2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fingers - Base Model-2</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0099854957821283105 0.00053839946610084732</Position>
+<Axis>0 0.9985495782128313 0.053839946610088632</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.025150000000000002 0.13174999999999998 0.037186337610825515</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Angle>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.018150000000000006 0.15949999999999998 -0.0060000000000000053</Position>
+<Axis>0 -1.5699569943925839e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fingers - Base Model-3</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>-0.0060000000000000053 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Angle name="LimitAngle3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.025150000000000002 0.13774999999999998 0.0062500000000000056</Position>
+<Axis>0 -1 2.2204460492503135e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fingers - Base Model-3</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0099854957821283036 0.00053839946610090283</Position>
+<Axis>0 0.99854957821283108 0.053839946610088688</Axis>
+</ConstraintGeometry>
+</Angle>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.018150000000000006 0.15050000000000002 -0.041101344208477178</Position>
+<Axis>0 -2.8179660807398247e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fingers - Base Model-4</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>-0.0060000000000000053 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Angle name="LimitAngle4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fingers - Base Model-4</Uid>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.0099854957821283105 0.00053839946610090283</Position>
+<Axis>0 0.99854957821283119 0.053839946610088688</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.025150000000000002 0.12875000000000003 -0.028851344208477181</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Angle>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HandCase-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.071170937821731867 0.0094894583762309415</Position>
+<Axis>0 -0.13216372009101837 0.99122790068263467</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>HandCase-1</Uid>
+</InstancePath>
+<Position>0.041461692258972935 0.077964424573092439 0.0049999999999999975</Position>
+<Axis>0.99122790068263489 0.13216372009101693 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hand Cassing Assembly-2</Uid>
+<Uid>Hand_Base-1</Uid>
+</InstancePath>
+<Position>-0.20176153981532829 0.072294040985595803 -0.057755969162700385</Position>
+<Axis>0 0.13216372009101809 -0.99122790068263467</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HandCase-1</Uid>
+</InstancePath>
+<Position>0.056332016800506757 0.082973683702047898 0.028000000000000004</Position>
+<Axis>0.99122790068263489 0.13216372009101696 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Hand Cassing Assembly" uid="Hand Cassing Assembly" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Hand Cassing Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Fingers - Base Model" uid="Fingers - Base Model" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Fingers - Base Model.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 -0.00041194686246236178 -0.044998114402522583</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentBUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01025 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 -0.00041194686246236178 -0.044998114402522583</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Connecting pole - 1-1</Uid>
+</InstancePath>
+<Position>0.019829999999999997 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentBUpdated2-1</Uid>
+</InstancePath>
+<Position>0.070079548493504729 -0.0026911819397401702 -0.01828650073564142</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Connecting pole - 1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentBUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 0 -0.038000000000000006</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentCUpdated2-1</Uid>
+</InstancePath>
+<Position>-0.0060499999999999998 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FingerSegmentBUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 0 -0.038000000000000006</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Connecting pole - 2-1</Uid>
+</InstancePath>
+<Position>0.017999999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Angle name="LimitAngle1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FingerSegmentAUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 0.0099854957821283105 0.00053839946610088896</Position>
+<Axis>0 0.99854957821283108 0.053839946610088681</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FingerSegmentBUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 0.01049268068466425 0.00039198475694071991</Position>
+<Axis>0 0.99930292234897589 0.037331881613402118</Axis>
+</ConstraintGeometry>
+</Angle>
+<Angle name="LimitAngle2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FingerSegmentCUpdated2-1</Uid>
+</InstancePath>
+<Position>0.010000000000000004 0.010969544905239974 -0.0011160097323381201</Position>
+<Axis>0 0.99486461175240426 -0.10121464460609542</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FingerSegmentBUpdated2-1</Uid>
+</InstancePath>
+<Position>0.01 0.01049268068466425 0.00039198475694071991</Position>
+<Axis>0 0.99930292234897589 0.037331881613402118</Axis>
+</ConstraintGeometry>
+</Angle>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Connecting pole - 1" uid="Connecting pole - 1*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Connecting pole - 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00016450508144056031</Mass>
+<CenterOfMass>0.0099149999999999985 0 0</CenterOfMass>
+<Inertia>2.1719811533948967e-10 5.4992784092765737e-09 5.4992784092765737e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Connecting pole - 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Connecting pole - 2" uid="Connecting pole - 2*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Connecting pole - 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00014932382581593978</Mass>
+<CenterOfMass>0.0089999999999999993 0 0</CenterOfMass>
+<Inertia>1.9715411377260792e-10 4.1303203539166762e-09 4.1303203539166762e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Connecting pole - 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FingerSegmentAUpdated2" uid="FingerSegmentAUpdated2*:*Default" version="2770">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FingerSegmentAUpdated2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013311048508955736</Mass>
+<CenterOfMass>-5.9356917373721005e-06 -0.00023365002134362119 -0.02846203952322961</CenterOfMass>
+<Inertia>2.5447344009310788e-06 2.4065542737559917e-06 7.9835677158167367e-07 -4.2916124743619798e-08 1.814805507259065e-09 7.3944373865014815e-10</Inertia>
+</MassProperties>
+<GeometryFile name="FingerSegmentAUpdated2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FingerSegmentBUpdated2" uid="FingerSegmentBUpdated2*:*Default" version="2294">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FingerSegmentBUpdated2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011304834689623226</Mass>
+<CenterOfMass>1.4449498042700583e-09 0.00017354454476999531 -0.023869706858656352</CenterOfMass>
+<Inertia>2.0434681766330569e-06 1.9935326907164512e-06 6.9262631486390044e-07 -9.2966010906708096e-08 -3.2755987894088174e-12 -1.2408482252257509e-12</Inertia>
+</MassProperties>
+<GeometryFile name="FingerSegmentBUpdated2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FingerSegmentCUpdated2" uid="FingerSegmentCUpdated2*:*Default" version="1101">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FingerSegmentCUpdated2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0063935706697649392</Mass>
+<CenterOfMass>2.1915509100217973e-07 0.0014187325438954805 -0.018167887309323193</CenterOfMass>
+<Inertia>6.572999845776971e-07 6.8988842778556398e-07 3.0045102899036293e-07 -1.7996460818420011e-09 1.1426317277769729e-11 -3.4620759078501906e-12</Inertia>
+</MassProperties>
+<GeometryFile name="FingerSegmentCUpdated2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HandCase" uid="HandCase*:*Default" version="440">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HandCase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10363265768889075</Mass>
+<CenterOfMass>-0.0049723768865701651 0.071396143456423491 0.018416041645257994</CenterOfMass>
+<Inertia>0.00016001411116267668 0.00015898261858924897 0.00030814353448390801 8.3048800998443417e-06 -1.6668732013356414e-06 2.4920867889179217e-06</Inertia>
+</MassProperties>
+<GeometryFile name="HandCase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hand_Base" uid="Hand_Base*:*Default" version="14648">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hand_Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16618886581486317</Mass>
+<CenterOfMass>0.0027314393161085152 0.067075862047095397 -0.0075146250850724591</CenterOfMass>
+<Inertia>0.00052161460706234917 0.00021432724313045869 0.00033238221002366859 -5.5796713518688177e-05 -1.6076499381290738e-05 -2.6764266542148972e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Hand_Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
