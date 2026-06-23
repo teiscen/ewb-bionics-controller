@@ -3,14 +3,13 @@ from cli_controller import SimulinkMessage
 from control_hub import ControlHub
 from interfaces import UDPInterface
 
-# ----- EXAMPLE
-# 
-# REMEMBER TO CREATE A SCRIPT TO FETCH THE REQUIRED FILES 
+HOST = 'localhost'
+PORT = 50007
+
 def main():
     # Define the control_hub with whatever interface you wrote.
-    # Here, I've included the MockInterface (MAKE LINK) which prints out whatever it receives    
     hub = ControlHub({
-        'twin': UDPInterface('localhost', 50007),
+        'twin': UDPInterface(HOST, PORT),
     })
     # After you create control_hub you must enable it (name has to match).
     hub.enable('twin')
