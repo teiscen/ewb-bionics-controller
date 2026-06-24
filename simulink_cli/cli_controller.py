@@ -8,7 +8,8 @@ class SimulinkMessage(cmd.Cmd):
     prompt = '(bionics)'
     message_help = "<finger> must be one of the following: int ranging from 0 to 4 or 'thumb', 'index', 'middle', 'ring', 'pinky'" \
                    "<curl>   must be an int ranging from -180 to 180"
-    
+                    # ^^^ THIS IS WRONG BE SURE TO FIX
+
     # NOTE: The controller has a control_hub.
     # It is your controller's responsibility to call `send` on the controller.
     def __init__(self, hub):
@@ -22,17 +23,11 @@ class SimulinkMessage(cmd.Cmd):
 
     def do_send(self, args):
         try:
-            message = Message().parse_string(args)
-        except Exception:
-            print('Invalid message! Will not be sent.')
-            return 0
-        
-        if message['finger'] is None or message['curl'] is None:
-            print('Invalid message! Will not be sent.')
-            return 0
-        else:
-            message_construct = Message.construct_message(message['finger'], message['curl'])
+            message = Message.parse_string(args)
+            message_construct = Message.construct_message(message)
             self.hub.send(message_construct)
+        except Exception:
+            print("The message is invalid and will not be sent.")
             return 0
     
     def help_add(self):
@@ -102,4 +97,5 @@ class SimulinkMessage(cmd.Cmd):
         if self.file:
             self.file.close()
             self.file = None
+
 

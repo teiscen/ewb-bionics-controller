@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-import socket, struct
-
+import socket
 # DELETED MOCK FOR SIMPLICITY AND BECAUSE ITLL PROB BE MOVED class BionicsInterface(ABC): @abstractmethod
+#
 class BionicsInterface(ABC):
     @abstractmethod
     def connect(self): pass
@@ -31,9 +31,7 @@ class UDPInterface(BionicsInterface):
 
     def send(self, message):
             if self.sock:
-                # '<bh' forces exactly 3 bytes: 1 for finger, 2 for curl. 
-                payload = struct.pack('<bh', int(message['finger']), int(message['curl']))
-                self.sock.sendto(payload, (self.host, self.port))
+                self.sock.sendto(message.encode('utf-8'), (self.host, self.port))
                 print(f'[UDP] sent finger={message["finger"]}, curl={message["curl"]}')
 
 

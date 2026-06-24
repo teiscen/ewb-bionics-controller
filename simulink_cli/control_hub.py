@@ -1,6 +1,3 @@
-from abc import ABC, abstractmethod
-import socket
-import struct
 from interfaces import BionicsInterface
 
 # ----- NOTHING CHANGED OTHER THAN IMPORTING BionicsInterface
